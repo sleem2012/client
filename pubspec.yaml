@@ -1,0 +1,120 @@
+name: forall_client
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 2.0.0+60
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+  animated_bottom_navigation_bar:
+  another_stepper: 1.0.4
+  audio_session:
+  audioplayers:
+  cached_network_image:
+  carousel_slider:
+  connectivity_plus:
+  country_code_picker:
+  dartz:
+  dio:
+  firebase_core:
+  firebase_messaging:
+  fl_chart:
+  flutter_bloc:
+  flutter_credit_card:
+  flutter_emoji:
+  flutter_local_notifications: 12.0.4
+  flutter_rating_bar:
+  flutter_sound:
+  flutter_svg:
+  font_awesome_flutter:
+  geolocator:
+  get:
+  get_it:
+  get_storage:
+  google_maps_flutter:
+  image_picker:
+  intl:
+  linkwell:
+  lottie:
+  #package_info_plus:
+  permission_handler:
+  photo_view:
+  pinput:
+  qr_code_scanner: 1.0.1
+  qr_flutter: 4.0.0
+  share_plus:
+  shimmer:
+  socket_io_client:
+  syncfusion_flutter_datepicker:
+  url_launcher:
+  video_player:
+  webview_flutter:
+  lit_relative_date_time:
+#  flutter_advanced_networkimage_2:
+  azlistview:
+  sign_in_with_apple:
+  scrollable_positioned_list:
+  google_sign_in:
+  flutter_facebook_auth:
+  firebase_auth:
+  flutter_slidable:
+  simple_barcode_scanner: ^0.0.8
+  image_cropper:
+  file_picker: 5.3.2
+  cached_network_svg_image: ^0.0.5
+
+
+dev_dependencies:
+
+  #? change_app_package_name #  flutter pub run change_app_package_name:main com.easyindex.forall2030
+  #:
+  #? flutter_launcher_icons #  flutter pub run flutter_launcher_icons:main
+  #:
+  #flutter_lints:
+  #? flutter_native_splash #  flutter pub run flutter_native_splash:create
+  #:
+  freezed:
+  freezed_annotation:
+  json_annotation:
+  json_serializable:
+  build_runner:
+
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/launcher/1.png"
+
+flutter_native_splash:
+  background_image: "assets/launcher/icon.png"
+  fullscreen: true
+  android: true
+  ios: true
+  web: true
+
+flutter:
+  uses-material-design: true
+
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/launcher/
+    - assets/fonts/
+    - assets/
+
+  fonts:
+    - family: font
+      fonts:
+        - asset: assets/fonts/font.ttf
+    - family: sf
+      fonts:
+        - asset: assets/fonts/sf.ttf
